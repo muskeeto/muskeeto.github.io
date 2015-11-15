@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Archivo+Narrow:700);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,700);
+@import url(https://brick.a.ssl.fastly.net/Libre+Caslon+Display:400);
+
+$logo-font: 'Libre Caslon Display';
+$headline-font: 'Archivo Narrow';
+$body-font: 'Crimson Text';
+$monospace-font: 'courier-prime';
+
+$body-font-color: #444;
+$headline-font-color: #222;
+
+body {
+  font-family: $body-font;
+}
+
+article {
+  margin-top: 5em;
+  font-size: 15pt;
+  font-family: $body-font;
+  color: $body-font-color;
+  header {
+    width: 36em;
+    margin: 0 auto;
+    // margin-bottom: 1.6em;
+    .tag {
+      font-size: 14pt;
+      font-family: $monospace-font;
+      text-decoration: none;
+      color: $body-font-color;
+      margin-bottom: 0.2em;
+      display: block;
+    }
+    .headline {
+      color: $headline-font-color;
+      margin-top: 0;
+      margin-bottom: 0.5em;
+      font-family: $headline-font;
+      line-height: 1.4em;
+      padding-bottom: 0.6em;
+      border-bottom: 0.13em solid $headline-font-color;
+    }
+  }
+
+  p {
+    line-height: 1.6em;
+    margin: 0 auto;
+    width: 36em;
+    margin-bottom: 1.6em;
+  }
+}
