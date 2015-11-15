@@ -16,20 +16,33 @@ body {
 
 .logo {
   margin: 0 auto;
-  margin-top: 80px;
+  margin-top: 100px;
   text-align: center;
   .title {
-    font-size: 48pt;
+    font-size: 32pt;
     font-family: $logo-font;
   }
   .tagline {
-    font-size: 12pt;
+    font-size: 10pt;
     font-family: $monospace-font;
   }
 }
 
+#sidebar {
+  padding: 2em;
+  position: fixed;
+  font-family: $monospace-font;
+  top: 0;
+  left: 0;
+}
+
+#sidebar-button-icon {
+  height: 1em;
+  vertical-align: top;
+}
+
 article {
-  margin-top: 3em;
+  margin-top: 5em;
   font-size: 15pt;
   font-family: $body-font;
   color: $body-font-color;
@@ -38,20 +51,24 @@ article {
     margin: 0 auto;
     // margin-bottom: 1.6em;
     .tag {
-      font-size: 14pt;
+      font-size: 12pt;
       font-family: $monospace-font;
       text-decoration: none;
       color: $body-font-color;
-      margin-bottom: 0.2em;
+      margin-bottom: 0.7em;
       display: block;
+    }
+    .author {
+      display: block;
+      margin-bottom: 1.6em;
     }
     .headline {
       color: $headline-font-color;
       margin-top: 0;
-      margin-bottom: 0.5em;
+      margin-bottom: 0.7em;
       font-family: $headline-font;
       line-height: 1.4em;
-      padding-bottom: 0.6em;
+      padding-bottom: 0.8em;
       border-bottom: 0.13em solid $headline-font-color;
     }
   }
