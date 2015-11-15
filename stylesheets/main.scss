@@ -14,8 +14,22 @@ body {
   font-family: $body-font;
 }
 
+.logo {
+  margin: 0 auto;
+  margin-top: 80px;
+  text-align: center;
+  .title {
+    font-size: 48pt;
+    font-family: $logo-font;
+  }
+  .tagline {
+    font-size: 12pt;
+    font-family: $monospace-font;
+  }
+}
+
 article {
-  margin-top: 5em;
+  margin-top: 3em;
   font-size: 15pt;
   font-family: $body-font;
   color: $body-font-color;

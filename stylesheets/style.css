@@ -4,8 +4,19 @@
 body {
   font-family: "Crimson Text"; }
 
+.logo {
+  margin: 0 auto;
+  margin-top: 80px;
+  text-align: center; }
+  .logo .title {
+    font-size: 48pt;
+    font-family: "Libre Caslon Display"; }
+  .logo .tagline {
+    font-size: 12pt;
+    font-family: "courier-prime"; }
+
 article {
-  margin-top: 5em;
+  margin-top: 3em;
   font-size: 15pt;
   font-family: "Crimson Text";
   color: #444; }
