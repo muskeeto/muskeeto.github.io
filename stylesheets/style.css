@@ -2,11 +2,16 @@
 @import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,700);
 @import url(https://brick.a.ssl.fastly.net/Libre+Caslon+Display:400);
 body {
-  font-family: "Crimson Text"; }
+  font-family: "Crimson Text";
+  padding-bottom: 3em; }
+
+a {
+  color: #444; }
 
 .logo {
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 80px;
+  margin-bottom: 60px;
   text-align: center; }
   .logo .title {
     font-size: 32pt;
@@ -15,19 +20,31 @@ body {
     font-size: 10pt;
     font-family: "courier-prime"; }
 
+#footer-img {
+  height: 120px;
+  padding: 0.5em; }
+
+footer {
+  text-align: center; }
+
 #sidebar {
-  padding: 2em;
+  padding: 3.2em;
   position: fixed;
   font-family: "courier-prime";
   top: 0;
-  left: 0; }
+  left: 0;
+  width: 160px; }
 
 #sidebar-button-icon {
   height: 1em;
-  vertical-align: top; }
+  vertical-align: top;
+  margin-bottom: 3.2em; }
+
+.sidebar-menu-item {
+  display: block;
+  padding: 1.4em 0; }
 
 article {
-  margin-top: 5em;
   font-size: 15pt;
   font-family: "Crimson Text";
   color: #444; }
@@ -51,9 +68,9 @@ article {
       font-family: "Archivo Narrow";
       line-height: 1.4em;
       padding-bottom: 0.8em;
-      border-bottom: 0.13em solid #222; }
+      border-bottom: 0.07em solid #666; }
   article p {
-    line-height: 1.6em;
+    line-height: 1.5em;
     margin: 0 auto;
     width: 36em;
     margin-bottom: 1.6em; }

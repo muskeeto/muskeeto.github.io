@@ -12,11 +12,17 @@ $headline-font-color: #222;
 
 body {
   font-family: $body-font;
+  padding-bottom: 3em;
+}
+
+a {
+  color: $body-font-color;
 }
 
 .logo {
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 80px;
+  margin-bottom: 60px;
   text-align: center;
   .title {
     font-size: 32pt;
@@ -28,21 +34,37 @@ body {
   }
 }
 
+#footer-img {
+  height: 120px;
+  padding: 0.5em;
+}
+
+footer {
+  text-align: center;
+}
+
 #sidebar {
-  padding: 2em;
+  padding: 3.2em;
   position: fixed;
   font-family: $monospace-font;
   top: 0;
   left: 0;
+  width: 160px;
 }
 
 #sidebar-button-icon {
   height: 1em;
   vertical-align: top;
+  margin-bottom: 3.2em;
+}
+
+.sidebar-menu-item {
+  display: block;
+  // text-align: right;
+  padding: 1.4em 0;
 }
 
 article {
-  margin-top: 5em;
   font-size: 15pt;
   font-family: $body-font;
   color: $body-font-color;
@@ -69,14 +91,15 @@ article {
       font-family: $headline-font;
       line-height: 1.4em;
       padding-bottom: 0.8em;
-      border-bottom: 0.13em solid $headline-font-color;
+      border-bottom: 0.07em solid #666;
     }
   }
 
   p {
-    line-height: 1.6em;
+    line-height: 1.5em;
     margin: 0 auto;
     width: 36em;
     margin-bottom: 1.6em;
   }
+
 }
