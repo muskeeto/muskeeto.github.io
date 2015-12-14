@@ -10,8 +10,7 @@ $monospace-font: 'courier-prime';
 $body-font-color: #444;
 $headline-font-color: #222;
 
-$media-tiny: 360px;
-$media-small: 800px; // iphone 5 landscape
+$media-small: 1100px;
 
 body {
   font-family: $body-font;
@@ -107,6 +106,16 @@ footer {
   left: -100%;
 }
 
+.image-container {
+  box-sizing: border-box;
+  padding: 1.2em;
+  display: block;
+}
+
+.image {
+  width: 100%;
+}
+
 article {
   font-size: 20px;
   font-family: $body-font;
@@ -129,7 +138,7 @@ article {
     }
     .author {
       display: block;
-      margin-bottom: 1.6em;
+      margin-bottom: 1.8em;
     }
     .headline {
       color: $headline-font-color;
