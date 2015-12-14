@@ -83,6 +83,9 @@ article {
   font-size: 20px;
   font-family: "Crimson Text";
   color: #444; }
+  @media (max-width: 800px) {
+    article {
+      padding: 0.5em; } }
   article header {
     max-width: 36em;
     margin: 0 auto;
