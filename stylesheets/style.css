@@ -13,6 +13,9 @@ a {
   margin-top: 80px;
   margin-bottom: 60px;
   text-align: center; }
+  @media (max-width: 800px) {
+    .logo {
+      margin-top: 65px; } }
   .logo .title {
     font-size: 43px;
     font-family: "Libre Caslon Display"; }
@@ -28,33 +31,53 @@ footer {
   text-align: center; }
 
 #sidebar {
-  padding: 3.2em;
   position: fixed;
   font-family: "courier-prime";
   top: 0;
   left: 0;
   width: 160px; }
+  @media (max-width: 800px) {
+    #sidebar {
+      width: 100%; } }
+
+#sidebar-button {
+  padding: 3.2em;
+  padding-right: 0; }
+  @media (max-width: 800px) {
+    #sidebar-button {
+      background-color: white;
+      opacity: 0.95;
+      padding: 1.6em; } }
 
 #sidebar-button-icon {
   height: 1em;
-  vertical-align: top;
-  margin-bottom: 3.2em; }
+  vertical-align: top; }
+  @media (max-width: 800px) {
+    #sidebar-button-icon {
+      margin-bottom: 0; } }
 
 .sidebar-menu-item {
   display: block;
   padding: 1.4em 0; }
 
 #sidebar-menu {
+  padding-left: 3.2em;
   position: relative;
   transition-duration: 400ms;
   transition-timing-function: ease-in-out;
   overflow: hidden; }
+  @media (max-width: 800px) {
+    #sidebar-menu {
+      text-align: center;
+      background-color: white;
+      opacity: 0.95;
+      padding-left: 0; } }
 
 .sidebar-menu-default {
   left: 0; }
 
 .collapsed {
-  left: -230px; }
+  left: -100%; }
 
 article {
   font-size: 20px;
@@ -62,7 +85,8 @@ article {
   color: #444; }
   article header {
     max-width: 36em;
-    margin: 0 auto; }
+    margin: 0 auto;
+    font-size: 20px; }
     article header .tag {
       font-size: 16px;
       font-family: "courier-prime";

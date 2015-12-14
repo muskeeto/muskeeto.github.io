@@ -10,6 +10,9 @@ $monospace-font: 'courier-prime';
 $body-font-color: #444;
 $headline-font-color: #222;
 
+$media-tiny: 360px;
+$media-small: 800px; // iphone 5 landscape
+
 body {
   font-family: $body-font;
   padding-bottom: 3em;
@@ -24,6 +27,9 @@ a {
   margin-top: 80px;
   margin-bottom: 60px;
   text-align: center;
+  @media (max-width: $media-small) {
+    margin-top: 65px;
+  }
   .title {
     font-size: 43px;
     font-family: $logo-font;
@@ -44,31 +50,53 @@ footer {
 }
 
 #sidebar {
-  padding: 3.2em;
   position: fixed;
   font-family: $monospace-font;
   top: 0;
   left: 0;
   width: 160px;
+  @media (max-width: $media-small) {
+    width: 100%;
+  }
+}
+
+#sidebar-button {
+  padding: 3.2em;
+  padding-right: 0;
+  @media (max-width: $media-small) {
+    background-color: white;
+    opacity: 0.95;
+    padding: 1.6em;
+  }
 }
 
 #sidebar-button-icon {
   height: 1em;
   vertical-align: top;
-  margin-bottom: 3.2em;
+  @media (max-width: $media-small) {
+    margin-bottom: 0;
+  }
 }
 
 .sidebar-menu-item {
+  // padding: 3.2em;
   display: block;
   // text-align: right;
   padding: 1.4em 0;
 }
 
 #sidebar-menu {
+  padding-left: 3.2em;
   position: relative;
   transition-duration: 400ms;
   transition-timing-function: ease-in-out;
   overflow: hidden;
+  @media (max-width: $media-small) {
+    text-align: center;
+    background-color: white;
+    opacity: 0.95;
+    padding-left: 0;
+  }
 }
 
 .sidebar-menu-default {
@@ -76,7 +104,7 @@ footer {
 }
 
 .collapsed {
-  left: -230px;
+  left: -100%;
 }
 
 article {
@@ -86,6 +114,7 @@ article {
   header {
     max-width: 36em;
     margin: 0 auto;
+    font-size: 20px;
     // margin-bottom: 1.6em;
     .tag {
       font-size: 16px;
