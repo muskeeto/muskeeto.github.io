@@ -14,10 +14,10 @@ a {
   margin-bottom: 60px;
   text-align: center; }
   .logo .title {
-    font-size: 32pt;
+    font-size: 43px;
     font-family: "Libre Caslon Display"; }
   .logo .tagline {
-    font-size: 10pt;
+    font-size: 14px;
     font-family: "courier-prime"; }
 
 #footer-img {
@@ -44,15 +44,27 @@ footer {
   display: block;
   padding: 1.4em 0; }
 
+#sidebar-menu {
+  position: relative;
+  transition-duration: 400ms;
+  transition-timing-function: ease-in-out;
+  overflow: hidden; }
+
+.sidebar-menu-default {
+  left: 0; }
+
+.collapsed {
+  left: -230px; }
+
 article {
-  font-size: 15pt;
+  font-size: 20px;
   font-family: "Crimson Text";
   color: #444; }
   article header {
-    width: 36em;
+    max-width: 36em;
     margin: 0 auto; }
     article header .tag {
-      font-size: 12pt;
+      font-size: 16px;
       font-family: "courier-prime";
       text-decoration: none;
       color: #444;
@@ -72,5 +84,5 @@ article {
   article p {
     line-height: 1.5em;
     margin: 0 auto;
-    width: 36em;
+    max-width: 36em;
     margin-bottom: 1.6em; }

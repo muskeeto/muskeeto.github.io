@@ -14,7 +14,7 @@
 
   <div id='sidebar'>
     <div id='sidebar-button'><img src='images/menu.svg' id='sidebar-button-icon'/> Sections</div>
-    <nav id='sidebar-menu'>
+    <nav id='sidebar-menu' class='sidebar-menu-default collapsed '>
       <a class='sidebar-menu-item' href='#'>Home</a>
       <a class='sidebar-menu-item' href='#'>Local</a>
       <a class='sidebar-menu-item' href='#'>World</a>
@@ -51,5 +51,30 @@
       <img id='footer-img' src='images/muskeeto.svg'/>
     </footer>
   </article>
+  <script>
+    window.onload = main;
+
+    function main() {
+
+      var sidebarButton = document.getElementById('sidebar-button');
+      var sidebarMenu = document.getElementById('sidebar-menu');
+      sidebarButton.addEventListener('click', function() {
+        collapseMenu(sidebarMenu);
+      });
+
+    }
+
+    function collapseMenu(element) {
+      var index = element.className.indexOf('collapsed ');
+      // console.log(index);
+      if (index != -1) {
+          element.className = element.className.replace('collapsed ', '');
+      }
+      else {
+        element.className += 'collapsed ';
+      }
+    }
+
+  </script>
 </body>
 </html>

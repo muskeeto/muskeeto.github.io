@@ -25,11 +25,11 @@ a {
   margin-bottom: 60px;
   text-align: center;
   .title {
-    font-size: 32pt;
+    font-size: 43px;
     font-family: $logo-font;
   }
   .tagline {
-    font-size: 10pt;
+    font-size: 14px;
     font-family: $monospace-font;
   }
 }
@@ -64,16 +64,31 @@ footer {
   padding: 1.4em 0;
 }
 
+#sidebar-menu {
+  position: relative;
+  transition-duration: 400ms;
+  transition-timing-function: ease-in-out;
+  overflow: hidden;
+}
+
+.sidebar-menu-default {
+  left: 0;
+}
+
+.collapsed {
+  left: -230px;
+}
+
 article {
-  font-size: 15pt;
+  font-size: 20px;
   font-family: $body-font;
   color: $body-font-color;
   header {
-    width: 36em;
+    max-width: 36em;
     margin: 0 auto;
     // margin-bottom: 1.6em;
     .tag {
-      font-size: 12pt;
+      font-size: 16px;
       font-family: $monospace-font;
       text-decoration: none;
       color: $body-font-color;
@@ -98,7 +113,7 @@ article {
   p {
     line-height: 1.5em;
     margin: 0 auto;
-    width: 36em;
+    max-width: 36em;
     margin-bottom: 1.6em;
   }
 
