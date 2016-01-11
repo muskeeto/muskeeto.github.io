@@ -9,7 +9,7 @@ a {
   color: #444;
   text-decoration: none;
   transition-duration: 100ms; }
-  a:hover {
+  a:hover .headline {
     color: #3f75ee; }
 
 .logo {
@@ -35,6 +35,7 @@ footer {
   text-align: center; }
 
 #sidebar {
+  pointer-events: none;
   position: fixed;
   font-family: "courier-prime";
   top: 0;

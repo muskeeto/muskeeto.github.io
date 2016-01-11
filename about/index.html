@@ -3,15 +3,13 @@ layout: default
 ---
 
 {% for post in site.posts %}
-{% if post.tags contains 'Local' or post.tags contains 'School' %}
+{% if post.tags contains 'About' %}
 <article>
-  <a href='{{ post.url }}'>
     <header>
         <h2 class='headline'>
-        {{ post.title }}
+          <a href='{{ post.url }}'>{{ post.title }}</a>
         </h2>
     </header>
-  </a>
 </article>
 {% endif %}
 {% endfor %}
