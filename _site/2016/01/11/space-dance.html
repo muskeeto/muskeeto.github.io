@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>the Muskeeto: News should suck!</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+  <link rel='stylesheet' type='text/css' href='/stylesheets/style.css'/>
+  <script src='https://use.edgefonts.net/courier-prime.js'></script>
+</head>
+<body>
+
+  <div class='logo'>
+    <div class='title'><a href='/'>the Muskeeto</a></div>
+    <div class='tagline'><em>News should suck!</em> | est. 2015</div>
+  </div>
+
+  <div id='sidebar'>
+    <div id='sidebar-button'><img src='/images/menu.svg' id='sidebar-button-icon'/> Sections</div>
+    <nav id='sidebar-menu' class='sidebar-menu-default collapsed '>
+      <a class='sidebar-menu-item' href='/'>Home</a>
+      <a class='sidebar-menu-item' href='/local'>Local</a>
+      <a class='sidebar-menu-item' href='/demon'>Demon</a>
+      <a class='sidebar-menu-item' href='/videos'>Videos</a>
+      <a class='sidebar-menu-item' href='/2016/01/01/about'>About</a>
+    </nav>
+  </div>
+
+  <article>
+  <header>
+  <a href='#' class='tag' rel='tag'>School</a>
+  <h2 class='headline'> Students Voice Concerns Over Political Correctness of Space-Themed Social Gathering</h2>
+  <div class='author'>By
+  
+
+  
+  Dr. Nasty
+
+  
+  </div>
+</header>
+
+  <section>
+    <p><img src="/images/2016-01-11-space-dance.jpg" alt="LHS administration plans next controversy." />
+<em>LHS administration plans next controversy.</em></p>
+
+<p>It’s Friday night, you’ve just finished a grueling week of homework and studying and college apps, so you want to unwind and trip the night fantastic with a couple o’ bros at a swinging school sanctioned sock hop. At the door, the student council checks your ticket. A teacher then asks to check your pockets. Finally, you get to check in for the night of your life. But did you remember to check your privilege?</p>
+
+<p>“Just because we don’t know who or what exists beyond the reaches of the known universe, does not mean we can just ignore the feelings of whatever is out there,” proclaimed one student. “The fact of the matter is, these events need to be inclusive to everyone, and a theme like “space” implies only those who exist within the realm of confirmed existence can feel like they belong.” Opinions like this one were not uncommon amongst dance-goers. Phrases such as “universe-centric”, “infini-phobia” and “single dimensional being-washing” were frequently referenced within our interviews. “It’s honestly appalling that they even let this event take place,” responded one student. When asked why they then chose to even attend if they felt so strongly about it, they declined further comment.</p>
+
+<p>All in all, the Space dance was a successful function, with Juniors and Seniors alike being able to forget about their woes for a few short hours before returning home, letting out a huge sigh, and beginning their homework due for Monday. But students shall not soon forget the social injustice committed that evening. That kind of shame stays stuck in the head far longer than the chorus of “Watch Me.” A young dance participant summed up the sentiments of the evening flawlessly: “I personally did not feel excluded or offended, but I am sure someone did. And that is inexcusable.”</p>
+
+  </section>
+</article>
+
+
+  <script>
+    window.onload = main;
+
+    function main() {
+
+      var sidebarButton = document.getElementById('sidebar-button');
+      var sidebarMenu = document.getElementById('sidebar-menu');
+      sidebarButton.addEventListener('click', function() {
+        collapseMenu(sidebarMenu);
+      });
+
+    }
+
+    function collapseMenu(element) {
+      var index = element.className.indexOf('collapsed ');
+      // console.log(index);
+      if (index != -1) {
+          element.className = element.className.replace('collapsed ', '');
+      }
+      else {
+        element.className += 'collapsed ';
+      }
+    }
+
+  </script>
+</body>
+</html>

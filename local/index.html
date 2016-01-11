@@ -2,8 +2,8 @@
 layout: default
 ---
 
-
 {% for post in site.posts %}
+{% if post.tags contains 'Local' or post.tags contains 'School' %}
 <article>
     <header>
         <h2 class='headline'>
@@ -11,4 +11,5 @@ layout: default
         </h2>
     </header>
 </article>
+{% endif %}
 {% endfor %}

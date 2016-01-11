@@ -6,7 +6,11 @@ body {
   padding-bottom: 3em; }
 
 a {
-  color: #444; }
+  color: #444;
+  text-decoration: none;
+  transition-duration: 100ms; }
+  a:hover {
+    color: #3f75ee; }
 
 .logo {
   margin: 0 auto;
@@ -76,11 +80,9 @@ footer {
 .sidebar-menu-default {
   left: 0; }
 
-.collapsed {
-  left: -100%; }
-
-img {
-  width: 100%; }
+@media (max-width: 1100px) {
+  .collapsed {
+    left: -100%; } }
 
 article {
   font-size: 20px;
@@ -117,3 +119,5 @@ article {
   article section {
     margin: 0 auto;
     max-width: 36em; }
+  article img {
+    width: 100%; }
