@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>the Muskeeto: News should suck!</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+  <link rel='stylesheet' type='text/css' href='/stylesheets/style.css'/>
+  <script src='https://use.edgefonts.net/courier-prime.js'></script>
+</head>
+<body>
+
+  <div class='logo'>
+    <div class='title'>the Muskeeto</div>
+    <div class='tagline'><em>News should suck!</em> | est. 2015</div>
+  </div>
+
+  <div id='sidebar'>
+    <div id='sidebar-button'><img src='/images/menu.svg' id='sidebar-button-icon'/> Sections</div>
+    <nav id='sidebar-menu' class='sidebar-menu-default collapsed '>
+      <a class='sidebar-menu-item' href='#'>Home</a>
+      <a class='sidebar-menu-item' href='#'>Local</a>
+      <a class='sidebar-menu-item' href='#'>World</a>
+      <a class='sidebar-menu-item' href='#'>Feature</a>
+      <a class='sidebar-menu-item' href='#'>Opinion</a>
+      <a class='sidebar-menu-item' href='#'>Video</a>
+    </nav>
+  </div>
+
+  
+<article>
+  <a href='/2016/01/10/new-sat.html'>
+    <header>
+  <a href='#' class='tag' rel='tag'>School</a>
+  <h2 class='headline'> College Board Announces New SAT Section Requiring Students to Complete Dragomar, Lord of Darkness's Three Trials of Courage</h2>
+  <a hre='#' class='author' ref='author'>By
+  
+
+  
+  Axel Damien
+
+  
+  </a>
+</header>
+
+  </a>
+</article>
+
+
+
+  <script>
+    window.onload = main;
+
+    function main() {
+
+      var sidebarButton = document.getElementById('sidebar-button');
+      var sidebarMenu = document.getElementById('sidebar-menu');
+      sidebarButton.addEventListener('click', function() {
+        collapseMenu(sidebarMenu);
+      });
+
+    }
+
+    function collapseMenu(element) {
+      var index = element.className.indexOf('collapsed ');
+      // console.log(index);
+      if (index != -1) {
+          element.className = element.className.replace('collapsed ', '');
+      }
+      else {
+        element.className += 'collapsed ';
+      }
+    }
+
+  </script>
+</body>
+</html>

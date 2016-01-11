@@ -1,86 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Muskeeto: News should suck.</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel='stylesheet' type='text/css' href='stylesheets/style.css'/>
-  <script src="https://use.edgefonts.net/courier-prime.js"></script>
-</head>
-<body>
+---
+layout: default
+---
 
-  <div class='logo'>
-    <div class='title'>the Muskeeto</div>
-    <div class='tagline'><em>News should suck.</em> | est. 2015</div>
-  </div>
 
-  <div id='sidebar'>
-    <div id='sidebar-button'><img src='images/menu.svg' id='sidebar-button-icon'/> Sections</div>
-    <nav id='sidebar-menu' class='sidebar-menu-default collapsed '>
-      <a class='sidebar-menu-item' href='#'>Home</a>
-      <a class='sidebar-menu-item' href='#'>Local</a>
-      <a class='sidebar-menu-item' href='#'>World</a>
-      <a class='sidebar-menu-item' href='#'>Feature</a>
-      <a class='sidebar-menu-item' href='#'>Opinion</a>
-      <a class='sidebar-menu-item' href='#'>Video</a>
-    </nav>
-  </div>
-
-  <article>
-    <header>
-      <a href='#' class='tag' rel='tag'>School</a>
-      <h2 class='headline'>College Board Announces New SAT Section Requiring Students to Complete Dragomar, Lord of Darkness's Three Trials of Courage</h2>
-      <a hre='#' class='author' ref='author'>By Axel Damien</a>
-    </header>
-    <section>
-      <p>
-        <img class='image' src='images/sat.png'/>
-        <em>Marketing material distributed by the CollegeBoard for the redesigned SAT Tests.</em>
-      </p>
-
-      <p>
-        Over the past week, thousands of students across America have voiced their frustration regarding the changes to the new SAT exam. Alterations in the new tests include reduced time for writing sections, increased emphasis on technologies, and a newly added section requiring test-takers to complete Dragomar, Lord of Darkness's three feats of bravery.
-      </p>
-      <p>
-        "I was already crunching down with my tutor, but this new section is really going to push me to step up my game," one exasperated student reports. "For the past three months, I've been working nonstop to try to scrape up a few extra points in the reading section, but prepping for Lord Dragomar's Vitruvian Bath of Flames is really going to rack up a lot of extra time at my tutor sessions."
-      </p>
-      <p>
-        Many parents have joined the outcry, expressing their concerns regarding the cultural biases of a section centered around overcoming the trials of an omnipotent ancient entity. "I simply don't believe that our country's schooling system has properly prepared all children to take on The Void of Infinite Eternities," said Maggie Donovan, mother of a current Lexington High School sophomore. "Many students simply aren't ready to carry the weight of this unholy burdon. And don't get me started on that new technologies portion."
-      </p>
-      <p>
-        While few details of the new section have been officially released, Princeton Review is already offering a study program to prepare students for the Lord of Darkness's trials before test day. "We know fully well that students often 'stress out' whenever new exams are issued," responded Princeton Review representative, David Short. "We're trying our best to help take some of the edge off before test day. Though we can't guarantee perfection, we hope that with our help, students will be able to escape The Realm of Crows with more ease than ever before."
-      </p>
-      <p>
-        College Board has taken note of the general tone of concern surrounding the new section and has issued a public statement reassuring students that this portion of the test is still in its experimental phase, and will likely have little to no effect on their scores.
-      </p>
-    </section>
-    <footer>
-      <img id='footer-img' src='images/muskeeto.svg'/>
-    </footer>
-  </article>
-  <script>
-    window.onload = main;
-
-    function main() {
-
-      var sidebarButton = document.getElementById('sidebar-button');
-      var sidebarMenu = document.getElementById('sidebar-menu');
-      sidebarButton.addEventListener('click', function() {
-        collapseMenu(sidebarMenu);
-      });
-
-    }
-
-    function collapseMenu(element) {
-      var index = element.className.indexOf('collapsed ');
-      // console.log(index);
-      if (index != -1) {
-          element.className = element.className.replace('collapsed ', '');
-      }
-      else {
-        element.className += 'collapsed ';
-      }
-    }
-
-  </script>
-</body>
-</html>
+{% for post in site.posts %}
+<article>
+  <a href='{{ post.url }}'>
+    {% include title.html title=post.title authors=post.authors tags=post.tags %}
+  </a>
+</article>
+{% endfor %}

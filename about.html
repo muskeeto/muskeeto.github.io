@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Muskeeto: News should suck.</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' href='stylesheets/style.css'/>
+  <script src='https://use.edgefonts.net/courier-prime.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js'></script>
+</head>
+<body>
+
+  <div class='logo'>
+    <div class='title'>the Muskeeto</div>
+    <div class='tagline'><em>News should suck.</em> | est. 2015</div>
+  </div>
+
+  <div id='sidebar'>
+    <div id='sidebar-button'><img src='images/menu.svg' id='sidebar-button-icon'/> Sections</div>
+    <nav id='sidebar-menu' class='sidebar-menu-default collapsed '>
+      <a class='sidebar-menu-item' href='#'>Home</a>
+      <a class='sidebar-menu-item' href='#'>Articles</a>
+      <a class='sidebar-menu-item' href='#'>Quizzes</a>
+      <a class='sidebar-menu-item' href='#'>Videos</a>
+      <a class='sidebar-menu-item' href='about.html'>About</a>
+    </nav>
+  </div>
+
+  <article>
+    <header>
+      <a href='#' class='tag' rel='tag'>{{tag}}</a>
+      <h2 class='headline'>{{title}}</h2>
+      <a hre='#' class='author' ref='author'>By {{author}}</a>
+    </header>
+    <section>
+
+      {{content}}
+
+    </section>
+    <footer>
+      <img id='footer-img' src='images/muskeeto.svg'/>
+    </footer>
+  </article>
+  <script>
+    window.onload = main;
+
+    function main() {
+
+      var sidebarButton = document.getElementById('sidebar-button');
+      var sidebarMenu = document.getElementById('sidebar-menu');
+      sidebarButton.addEventListener('click', function() {
+        collapseMenu(sidebarMenu);
+      });
+
+    }
+
+    function collapseMenu(element) {
+      var index = element.className.indexOf('collapsed ');
+      // console.log(index);
+      if (index != -1) {
+          element.className = element.className.replace('collapsed ', '');
+      }
+      else {
+        element.className += 'collapsed ';
+      }
+    }
+
+  </script>
+</body>
+</html>

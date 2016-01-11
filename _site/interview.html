@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Muskeeto: News should suck.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' type='text/css' href='stylesheets/style.css'/>
+  <script src="https://use.edgefonts.net/courier-prime.js"></script>
+</head>
+<body>
+
+  <div class='logo'>
+    <div class='title'>the Muskeeto</div>
+    <div class='tagline'><em>News should suck.</em> | est. 2015</div>
+  </div>
+
+  <div id='sidebar'>
+    <div id='sidebar-button'><img src='images/menu.svg' id='sidebar-button-icon'/> Sections</div>
+    <nav id='sidebar-menu' class='sidebar-menu-default collapsed '>
+      <a class='sidebar-menu-item' href='#'>Home</a>
+      <a class='sidebar-menu-item' href='#'>Local</a>
+      <a class='sidebar-menu-item' href='#'>World</a>
+      <a class='sidebar-menu-item' href='#'>Feature</a>
+      <a class='sidebar-menu-item' href='#'>Opinion</a>
+      <a class='sidebar-menu-item' href='#'>Video</a>
+    </nav>
+  </div>
+
+  <article>
+    <header>
+      <a href='#' class='tag' rel='tag'>Demon</a>
+      <h2 class='headline'>Exclusive Interview with the Satanic Hell-Demon Behind the Music During Passing Time</h2>
+      <a hre='#' class='author' ref='author'>By Gregory Saltfish and Dick Payne</a>
+    </header>
+    <section>
+      <p>
+        <strong>The Muskeeto:</strong> Hi, thanks for joining us today! What is your name?
+      </p>
+
+      <p>
+        <strong>Baathazar, Destroyer of Gods:</strong> My name is Baalthazar, Destroyer of Gods. Hail Satan, and may the thousand suns never extinguish his soul flames.
+      </p>
+
+      <p>
+        <strong>TM:</strong> That's quite the name! Do teachers often mispronounce it?
+      </p>
+
+      <p>
+        <strong>BDOG:</strong> No, teachers call me Ben.
+      </p>
+
+      <p>
+        <strong>TM:</strong> So tell me, when did you get the idea for playing music at passing time?
+      </p>
+
+      <p>
+      <strong>BDOG:</strong> Five thousand years ago, during the Great War between the Ullumnian Gods, I vowed to avenge my father's death by inflicting the wrath of the Tylons upon all the children of Satan, praise be to his blasphemous name. In his last dying breath, he commanded me to reinstate the will of the Forgotten upon a lost world. I've always had a passion for music, so it's also a great way to give back to the community from where I was hatched.
+      <p>
+
+      <p>
+        <img class='image' src='images/Fall_of_Babylon_Angers_Tapestry.jpeg'/>
+        <em>The twelve sisters of G'lorgunth engulf the world of man in hellfire.</em>
+      </p>
+
+      <p>
+        <strong>TM:</strong> Wow! That's quite the story. Did Principal Lasa think it was a good idea, too?
+      </p>
+
+      <p><strong>BDOG:</strong> Yes.</p>
+
+      <p>
+        <strong>TM:</strong> Do you think that stress reduction is an important priority for students and teachers at LHS?
+      </p>
+
+      <p>
+        <strong>BDOG:</strong> Stress is a fallacy of man, a mortal construct. It does not affect the day-to-day activities of celestial demons and the planetary motions of the heavens. You are a speck upon a speck. Your existence is short and painful, and devoid of meaning. Your God is dead. Only Satan, our true savoir, lives, praised be thy honored name.
+      </p>
+
+      <p>
+        <strong>TM:</strong> What's the playlist for next week?
+      </p>
+
+      <p>
+        <strong>BDOG:</strong> Oh my "God", I have, like, no idea whatsoever! Like, I was thinking about some One Direction, but I'm pretty sure it's gonna end up being Spotify Smash Summer Playlist Capri Sun Space Ballz Jammy-Jam, or maybe Whale Noises: Sounds from the Deep.
+      </p>
+
+      <p>
+        <strong>TM:</strong> Great choices! I'm sure either would be awesome through the loudspeakers. Thanks for talking to us!
+      </p>
+
+      <p>
+        <strong>BDOG:</strong> Damned be the chaste and the virgins; all men must lieth upon the Dark Lord's pyre of smoke and of unending abominations of Hell. No problem! Thanks for the interview.
+      </p>
+
+    </section>
+    <footer>
+      <img id='footer-img' src='images/muskeeto.svg'/>
+    </footer>
+  </article>
+  <script>
+    window.onload = main;
+
+    function main() {
+
+      var sidebarButton = document.getElementById('sidebar-button');
+      var sidebarMenu = document.getElementById('sidebar-menu');
+      sidebarButton.addEventListener('click', function() {
+        collapseMenu(sidebarMenu);
+      });
+
+    }
+
+    function collapseMenu(element) {
+      var index = element.className.indexOf('collapsed ');
+      // console.log(index);
+      if (index != -1) {
+          element.className = element.className.replace('collapsed ', '');
+      }
+      else {
+        element.className += 'collapsed ';
+      }
+    }
+
+  </script>
+</body>
+</html>

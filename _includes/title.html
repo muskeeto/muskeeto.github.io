@@ -1,0 +1,14 @@
+<header>
+  <a href='#' class='tag' rel='tag'>{{ include.tags[0] }}</a>
+  <h2 class='headline'> {{ include.title }}</h2>
+  <a hre='#' class='author' ref='author'>By
+  {% for author in include.authors %}
+
+  {% if forloop.length > 1 and forloop.last %}
+    and
+  {% endif %}
+  {{ author }}{% if forloop.rindex > 1 %},{% endif %}
+
+  {% endfor %}
+  </a>
+</header>
