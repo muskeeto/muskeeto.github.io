@@ -2,7 +2,7 @@
 layout: article
 title: I Could Beat Rand Paul in a Race
 tags: [Sports, Politics, Rand Paul]
-authors: [Doug-E]
+authors: [Dawg-E]
 ---
 
 I could beat Rand Paul in a race. I know I could do it. Every time I look at this scumbag, I think, “I could beat you in a race.” I just look at his stupid grin and his goddamn pubic hair haircut, and I know this dude can’t outpace me. And I’m not trying to be mean, but I know I could fucking destroy him. It’s like not a big deal either. I mean, whatever. He’s a presidential candidate and I’m a highschool student. We’ll probably never meet. But if we do meet, I’ll beat him.
