@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>the Muskeeto: News should suck.</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+  <link rel='stylesheet' type='text/css' href='/stylesheets/style.css'/>
+  <script src='https://use.edgefonts.net/courier-prime.js'></script>
+</head>
+<body>
+
+  <div class='logo'>
+    <div class='title'><a href='/'>the Muskeeto</a></div>
+    <div class='tagline'><em>News should suck.</em> | est. 2015</div>
+  </div>
+
+  <div id='sidebar'>
+    <div id='sidebar-button'><img src='/images/menu.svg' id='sidebar-button-icon'/> Sections</div>
+    <nav id='sidebar-menu' class='sidebar-menu-default collapsed '>
+      <a class='sidebar-menu-item' href='/'>Home</a>
+      <a class='sidebar-menu-item' href='/local'>Local</a>
+      <a class='sidebar-menu-item' href='/demon'>Demon</a>
+      <a class='sidebar-menu-item' href='/videos'>Videos</a>
+      <a class='sidebar-menu-item' href='/2016/01/01/about'>About</a>
+    </nav>
+  </div>
+
+  <article>
+  <header>
+  <a href='#' class='tag' rel='tag'>Opinion</a>
+  <h2 class='headline'> Editorial: To the Muskeeto Staff</h2>
+  <div class='author'>By
+  
+
+  
+  Roy Davidson
+
+  
+  </div>
+</header>
+
+  <section>
+    <p><em>Editors Note: This piece, addressed to the Muskeeto Staff, was written in response to the lackluster attendance plaguing the Muskeeto’s meetings.</em></p>
+
+<p>As the price per ounce of gold skyrockets and the value of a barrel of oil goes down faster than your mom does, only one question remains: How much would it cost to get one goddamn ounce of respect? I admit this won’t be the club that gets you into Stanford. In fact, having “Satirical Newspaper/Meme Magazine” as your eighth activity on the Common App probably won’t sweeten the pot to any but the most nihilistic of admissions officers/algorithms, but that’s not we’re here for. The pursuit of this art goes far beyond whatever college you’re not getting into. This is the one thing that’s here and now. Sure, student government and debate develop skills that propel you forward in life, building meaningful relationships and teaching valuable lessons, but what are those things going to do about the music in the hallways? The frozen foods in Commons I? Short passing times? If we can’t make a difference about any of those things, the least we can do is have a school-sanctioned echochamber to complain in. It takes courage to say “Poking fun at this issue doesn’t change anything or benefit anyone, but here’s 500 words on student parking passes anyway. Now give me some attention.”</p>
+
+<p>And another thing, the next time you say “the Muskeeto sucks lol”, consider this: You are the Muskeeto. That’s right, if you’re reading this, then you’re as much a part of the club as I am. Attendance on Monday meetings might be lacking, but once this sentence enters your brain you’ve arrived at the only club meeting that counts. I posted something on the internet and now it’s part of you forever. We’ve connected on a telepathic level, so like it or not, we’re in this thing together.</p>
+
+<p>Finally, what’s there to complain about anyway? We have a website and it’s slick. We have a few articles in the tubes and more on the way. We’ll hang up posters soon enough. Goddamn it, we’ve had some good laughs and we’re not slowing down now. If you want more content, take a look at the Doc and pick something to write about. If you want the real issue, take a look in the goddamn mirror. You’re a bigger joke than the name “Axel Damien.”</p>
+
+<p>So go on, laugh. Make a few more jokes about “sucking.” Jump on the group posts and let your salty-little comment reply garner its whole six likes. I’ll be cranking out some quality content if you need me.</p>
+
+  </section>
+</article>
+
+
+  <footer>
+    <img id='footer-img' src='/images/muskeeto.svg'/>
+  </footer>
+
+  <script>
+    window.onload = main;
+
+    function main() {
+
+      var sidebarButton = document.getElementById('sidebar-button');
+      var sidebarMenu = document.getElementById('sidebar-menu');
+      sidebarButton.addEventListener('click', function() {
+        collapseMenu(sidebarMenu);
+      });
+
+    }
+
+    function collapseMenu(element) {
+      var index = element.className.indexOf('collapsed ');
+      // console.log(index);
+      if (index != -1) {
+          element.className = element.className.replace('collapsed ', '');
+      }
+      else {
+        element.className += 'collapsed ';
+      }
+    }
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-72234453-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

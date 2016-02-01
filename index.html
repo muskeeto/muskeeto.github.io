@@ -8,6 +8,9 @@ layout: default
       <header>
         <h2 class='headline'>
           {{ post.title }}
+          {% if post.tags contains 'Video' %}
+          (Video)
+          {% endif %}
         </h2>
     </header>
   </a>
