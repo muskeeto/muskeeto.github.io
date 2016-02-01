@@ -5,10 +5,14 @@ body {
   font-family: "Crimson Text";
   padding-bottom: 3em; }
 
-a {
+.link {
   color: #444;
   text-decoration: none;
   transition-duration: 100ms; }
+
+a {
+  text-decoration: none;
+  color: #3f75ee; }
   a:hover .headline {
     color: #3f75ee; }
 
@@ -95,7 +99,8 @@ article {
   article header {
     max-width: 36em;
     margin: 0 auto;
-    font-size: 20px; }
+    font-size: 20px;
+    text-decoration: none; }
     article header .tag {
       font-size: 16px;
       font-family: "courier-prime";

@@ -17,10 +17,15 @@ body {
   padding-bottom: 3em;
 }
 
-a {
+.link {
   color: $body-font-color;
   text-decoration: none;
   transition-duration: 100ms;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(63, 117, 238);
   &:hover {
     .headline {
       color: rgb(63, 117, 238);
@@ -129,6 +134,7 @@ article {
     max-width: 36em;
     margin: 0 auto;
     font-size: 20px;
+    text-decoration: none;
     // margin-bottom: 1.6em;
     .tag {
       font-size: 16px;
