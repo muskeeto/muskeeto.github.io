@@ -3,9 +3,9 @@ layout: article
 title: Students Voice Concerns Over Political Correctness of Space-Themed Social Gathering
 tags: [School, Dance, Space]
 authors: [Dr. Nasty]
-image: /images/2016/2016-01-11-space-dance.jpg
+image: /images/2016/01/2016-01-11-space-dance.jpg
 ---
-![LHS administration plans next controversy.](/images/2016/2016-01-11-space-dance.jpg)
+![LHS administration plans next controversy.](/images/2016/01/2016-01-11-space-dance.jpg)
 *LHS administration plans next controversy.*
 
 It's Friday night, you've just finished a grueling week of homework and studying and college apps, so you want to unwind and trip the night fantastic with a couple o' bros at a swinging school sanctioned sock hop. At the door, the student council checks your ticket. A teacher then asks to check your pockets. Finally, you get to check in for the night of your life. But did you remember to check your privilege?

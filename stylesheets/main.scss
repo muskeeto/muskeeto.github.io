@@ -11,10 +11,22 @@ $body-font-color: #444;
 $headline-font-color: #222;
 
 $media-small: 1100px;
+// not the best scss...
+$max: 38em;
 
 body {
   font-family: $body-font;
   padding-bottom: 3em;
+}
+
+.preview-image-wrapper {
+  width: 100%;
+  height: 100px;
+  overflow-y: hidden;
+  padding: 0.2em 0;
+  img {
+    width: 100%;
+  }
 }
 
 .link {
@@ -40,6 +52,7 @@ a {
   text-align: center;
   @media (max-width: $media-small) {
     margin-top: 80px;
+    margin-bottom: 20px;
   }
   .title {
     font-size: 43px;
@@ -121,17 +134,17 @@ footer {
   }
 }
 
-
-
-article {
+article { // pretty terrible...
   font-size: 20px;
   font-family: $body-font;
   color: $body-font-color;
+  padding-bottom: 1em;
   @media (max-width: $media-small) {
     padding: 0.5em;
+    padding-bottom: 1em;
   }
   header {
-    max-width: 36em;
+    max-width: $max; // move max width into article style maybe
     margin: 0 auto;
     font-size: 20px;
     text-decoration: none;
@@ -152,10 +165,12 @@ article {
     .headline {
       color: $headline-font-color;
       margin-top: 0;
-      margin-bottom: 0.7em;
+      // margin-bottom: 0.7em;
+      margin-bottom: 0.5em;
       font-family: $headline-font;
       line-height: 1.4em;
-      padding-bottom: 0.8em;
+      // padding-bottom: 0.8em;
+      padding-bottom: 0.4em;
       border-bottom: 0.07em solid #666;
     }
   }
@@ -167,7 +182,8 @@ article {
 
   section {
     margin: 0 auto;
-    max-width: 36em;
+    // max-width: 36em;
+    max-width: $max;
   }
 
   img {

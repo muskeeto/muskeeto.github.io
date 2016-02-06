@@ -3,6 +3,7 @@ layout: article
 title: '"Coming Out" as a Republican at LHS'
 tags: [School, Politics, Activism]
 authors: [Sugarcakes]
+image: /images/2016/02/2016-02-01-coming-out-as-republican.jpg
 ---
 
 LHS sophomore Lloyd Fredricksen always knew he was a little bit different.
@@ -14,6 +15,9 @@ Fredricksen has recently joined the ranks of several other LHS students to “co
 “It’s hard to come to terms with your identity,” Fredricksen said, “But with so much in the media encouraging people to ‘dare to be themselves’ and stuff, I thought ‘Why not me?’ Republicans are people too.”
 
 However, he, along with the two other openly Republican students at the school, have come under scrutiny from their peers.
+
+![Abraham "Honest Abe" Lincoln, our first openly Republican president](/images/2016/02/2016-02-01-coming-out-as-republican.jpg)
+*Abraham "Honest Abe" Lincoln, our first openly Republican president*
 
 “I just think it’s wrong,” said junior Jess Nichols. “I’ve always been taught that here in Lexington you’re either a Democrat or nothing at all. Who do these people think they are? These are our core community values that they’re trampling on.”
 

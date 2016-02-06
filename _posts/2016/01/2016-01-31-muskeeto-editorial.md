@@ -3,6 +3,7 @@ layout: article
 title: "Editorial: To the Muskeeto Staff"
 tags: [Opinion, Meta, Muskeeto]
 authors: [Roy Davidson]
+image: /images/2016/01/2016-01-30-muskeeto-editorial.jpg
 ---
 
 *Editors Note: This piece, addressed to the Muskeeto Staff, was written in response to the lackluster attendance plaguing the Muskeeto's meetings.*
@@ -14,3 +15,6 @@ And another thing, the next time you say “the Muskeeto sucks lol”, consider 
 Finally, what’s there to complain about anyway? We have a website and it’s slick. We have a few articles in the tubes and more on the way. We’ll hang up posters soon enough. Goddamn it, we’ve had some good laughs and we’re not slowing down now. If you want more content, take a look at the Doc and pick something to write about. If you want the real issue, take a look in the goddamn mirror. You’re a bigger joke than the name “Axel Damien.”
 
 So go on, laugh. Make a few more jokes about “sucking.” Jump on the group posts and let your salty-little comment reply garner its whole six likes. I’ll be cranking out some quality content if you need me.
+
+![Good Content](/images/2016/01/2016-01-30-muskeeto-editorial.jpg)
+*Good Content*
