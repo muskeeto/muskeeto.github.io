@@ -3,6 +3,7 @@ layout: article
 title: Exclusive Interview with the Satanic Hell-Demon Behind the Music During Passing Time
 tags: [School, Demon, Music, Interview]
 authors: [Gregory Saltfish, Dick Payne]
+image: /images/2016/2016-01-10-fall-of-man.jpeg
 ---
 
 **The Muskeeto:** Hi, thanks for joining us today! What is your name?
@@ -17,7 +18,7 @@ authors: [Gregory Saltfish, Dick Payne]
 
 **BDOG:** Five thousand years ago, during the Great War between the Ullumnian Gods, I vowed to avenge my father's death by inflicting the wrath of the Tylons upon all the children of Satan, praise be to his blasphemous name. In his last dying breath, he commanded me to reinstate the will of the Forgotten upon a lost world. I've always had a passion for music, so it's also a great way to give back to the community from where I was hatched.
 
-![The twelve sisters of G'lorgunth engulf the world of man in hellfire.](/images/2016-01-10-fall-of-man.jpeg)
+![The twelve sisters of G'lorgunth engulf the world of man in hellfire.](/images/2016/2016-01-10-fall-of-man.jpeg)
 *The twelve sisters of G'lorgunth engulf the world of man in hellfire.*
 
 **TM:** Wow! That's quite the story. Did Principal Lasa think it was a good idea, too?
