@@ -4,15 +4,6 @@ layout: default
 
 {% for post in site.posts %}
 <article>
-  <a href='{{ post.url }}'>
-      <header>
-        <h2 class='headline'>
-          {{ post.title }}
-          {% if post.tags contains 'Video' %}
-          (Video)
-          {% endif %}
-        </h2>
-    </header>
-  </a>
+  {% include preview.html post=post %}
 </article>
 {% endfor %}

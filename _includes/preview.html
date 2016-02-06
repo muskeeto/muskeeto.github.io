@@ -1,0 +1,13 @@
+<a href='{{ include.post.url }}'>
+    <header>
+      <h2 class='headline'>
+        {% if include.post.image %}
+        <img src="{{ include.post.image }}" />
+        {% endif %}
+        {{ include.post.title }}
+        {% if include.post.tags contains 'Video' %}
+        (Video)
+        {% endif %}
+      </h2>
+  </header>
+</a>
