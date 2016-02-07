@@ -2,7 +2,7 @@
 layout: article
 title: 'New Ridesharing App Promises to Get Students On Time, Every Time'
 authors: [Anderson Cooper]
-tags: [Technology, Local, Business]
+tags: [Technology, School, Business]
 image: /images/2016/02/2016-02-06-new-ridesharing-app.jpg
 ---
 
