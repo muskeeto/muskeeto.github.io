@@ -3,10 +3,11 @@ layout: article
 title: 'Physics Grades: A Balancing Act'
 authors: [Poppin-Malli, Aymosa]
 tags: [School, Science, Grades, Physics]
-image: /images/2016/02/2016-03-01-physics-grading-system.jpg
+image: /images/2016/03/2016-03-01-physics-grading-system.jpg
 ---
 
-*Editor's Note: This article was originally published in a highly modified form. Here is the original, unadultered version.*
+![Physics grade formula.](/images/2016/03/2016-03-01-physics-grading-system.jpg)
+*Physics grade formula.*
 
 **LEXINGTON** - In attempt to dodge the possibility of looking like a total tryhard or an getting the ever so dreadful "A", 12th-grade students at Lexington High School told Muskeeto reporters on Thursday that they were thankful for the implementation of the AP physics 1 grading system. “I was worried that the Bunker Hill community college would reject me if my grades got any higher”, stated Jofundus Quantifundomos Sr. Jr., who previously had a 4.1 GPA. “Balance is an important element of life: one boob is an A cup so the other is a D. And using that methodology we can extrapolate a similar balance: A in Kinematics? Complement that with a nice D in Forces.
 

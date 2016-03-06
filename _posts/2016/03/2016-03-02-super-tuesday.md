@@ -3,7 +3,7 @@ layout: article
 title: Super Tuesday Results Shock and Awe Lexington High Students
 authors: [Paul Ticks]
 tags: [Politics, School]
-image: /images/2016/03/2016-03-02.jpg
+image: /images/2016/03/2016-03-02-super-tuesday.jpg
 ---
 
 LEXINGTON – Following Super Tuesday results, Lexington students were astonished to discover that the world outside of Lexington High School had a different take on politics than the student body.
@@ -23,3 +23,6 @@ On the Republican side, GOP frontrunner Donald Drumpf did not disappoint die-har
 There are more primaries to come, and LHS students are confident that the tide will turn. Does this mean defeat for our Supreme Leader? Does this mean victory for the antichr*st? Only time will tell; until then, students will continue to live in their fantasy world of rainbows and communism.
 
 *_Tara’s real last name was changed for literary effect. Apologies Tara!_
+
+![Voters gather in anticipation of super Tuesday.](/images/2016/03/2016-03-02-super-tuesday.jpg)
+*Voters gather in anticipation of super Tuesday.*
