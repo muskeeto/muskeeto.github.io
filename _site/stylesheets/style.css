@@ -133,6 +133,8 @@ article {
   article p {
     line-height: 1.5em;
     margin-bottom: 1.6em; }
+    article p a {
+      text-decoration: underline; }
   article section {
     margin: 0 auto;
     max-width: 38em; }

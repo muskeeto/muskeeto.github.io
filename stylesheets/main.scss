@@ -35,7 +35,7 @@ body {
   transition-duration: 100ms;
 }
 
-a {
+a { // bad scss smh
   text-decoration: none;
   color: rgb(63, 117, 238);
   &:hover {
@@ -178,6 +178,9 @@ article { // pretty terrible...
   p {
     line-height: 1.5em;
     margin-bottom: 1.6em;
+    a { // yuck!
+      text-decoration: underline;
+    }
   }
 
   section {
