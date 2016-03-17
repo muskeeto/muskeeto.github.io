@@ -8,6 +8,6 @@ var allPosts = [
     {% endunless %}
   {% endfor %}
 ];
-var random = Math.round(Math.random()*allPosts.length);
+var random = Math.floor(Math.random()*allPosts.length);
 window.location = 'http://muskeeto.co'+allPosts[random];
 </script>
