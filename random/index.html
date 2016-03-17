@@ -3,7 +3,9 @@
 <script>
 var allPosts = [
   {% for post in site.posts %}
-    "{{ post.url }}",
+    '{{ post.url }}',
   {% endfor %}
 ];
+var random = Math.round(Math.random()*allPosts.length);
+window.location = 'http://muskeeto.co'+allPosts[random];
 </script>
