@@ -3,7 +3,9 @@
 <script>
 var allPosts = [
   {% for post in site.posts %}
+    {% unless post.tags contains 'About' %} // exclude info posts
     '{{ post.url }}',
+    {% endunless %}
   {% endfor %}
 ];
 var random = Math.round(Math.random()*allPosts.length);

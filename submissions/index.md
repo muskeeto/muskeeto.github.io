@@ -2,6 +2,7 @@
 layout: article
 title: Writing for the Muskeeto
 authors: [Muskeeto Staff]
+tags: [About]
 ---
 
 Interested in submitting writing, headlines, or have another idea to pitch to the Muskeeto?
