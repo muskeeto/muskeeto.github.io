@@ -1,0 +1,9 @@
+---
+---
+<script>
+var allPosts = [
+  {% for post in site.posts %}
+    "{{ post.url }}",
+  {% endfor %}
+];
+</script>
