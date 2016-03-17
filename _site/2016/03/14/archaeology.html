@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>the Muskeeto: News should suck.</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+  <link rel='stylesheet' type='text/css' href='/stylesheets/style.css'/>
+  <script src='https://use.edgefonts.net/courier-prime.js'></script>
+</head>
+<body>
+
+  <div class='logo'>
+    <div class='title'><a class='link' href='/'>the Muskeeto</a></div>
+    <div class='tagline'><em>News should suck.</em> | est. 2015</div>
+  </div>
+
+  <div id='sidebar'>
+    <div id='sidebar-button'><img src='/images/menu.svg' id='sidebar-button-icon'/> Sections</div>
+    <nav id='sidebar-menu' class='sidebar-menu-default collapsed '>
+      <a class='link sidebar-menu-item' href='/'>Home</a>
+      <a class='link sidebar-menu-item' href='/local'>Local</a>
+      <a class='link sidebar-menu-item' href='/demon'>Politics</a>
+      <a class='link sidebar-menu-item' href='/videos'>Videos</a>
+      <a class='link sidebar-menu-item' href='/2016/01/01/about'>About</a>
+    </nav>
+  </div>
+
+  <article>
+  <header>
+  <a href='#' class='tag' rel='tag'>School</a>
+  <h1 class='headline'> The Land Before Not Having Time – Archaeologist Makes a Stunning Discovery at LHS</h1>
+  <div class='author'>By
+  
+
+  
+  The Triggerfish
+
+  
+  </div>
+</header>
+
+  <section>
+    <p><img src="/images/2016/03/2016-03-14-archaeology.jpg" alt="Alas, poor Yorick!" />
+<em>Alas, poor Yorick!</em></p>
+
+<p>LEXINGTON – Recently, world-famous archaeologist Larry Hunter entered the historic town of Lexington, seeking mementos of times long forgotten. On Friday, Hunter struck gold at the town’s public high school, when he uncovered a relic apparently dating back to some sort of golden age.</p>
+
+<p>LHS sophomore Chad Smith, Hunter’s newest assistant, told the Muskeeto Staff in an exclusive interview, “I only signed up to be an archaeologist’s assistant because my mom said it would really differentiate me from other kids during the college admissions process. At first I thought it was all boring, like just digging and stuff. But this time I think we found something really old and cool.”</p>
+
+<p>The discovery, made in the cluttered classroom of a man who specializes in educating young adults about ancient times, was a neon orange sheet of paper hanging from the wall.</p>
+
+<p>“Can you see anything?” asked a curious Chad as Larry Hunter shone his flashlight at the paper.</p>
+
+<p>“Yes, wonderful things,” Hunter replied. He brushed away a thick layer of dust to reveal faded print reading: <em>“PRODUCTIVE WAYS TO SPEND YOUR X-BLOCK.”</em></p>
+
+<p>At press time, Hunter is still attempting to decipher the mystery of X-Block. “I think it might be some strange ancient creature. I’ve been using the latest technology to piece together a scale model of what it might have looked like,” Hunter explained to our reporters, pointing to a small wooden block marked in sharpie with a large “X”.</p>
+
+<p>LHS students seem just as perplexed to the meaning of X-Block as the archaeologist.</p>
+
+<p>“X-Block, is that like the X-men?” asked confused LHS freshman Amber Green.</p>
+
+<p>“It sounds vaguely familiar, but I’m too busy studying for the SATs right now to remember,” commented sleep-deprived junior Katie Simmons.</p>
+
+<p>Unfortunately, Larry Hunter’s busy schedule excavating the Battle Green on weekends and weeknights leaves him with little time to piece together the truth. “I’m forced to go searching for clues on weekdays, but all these kids hurrying from class to class is really hindering any progress,” he lamented to our staff. “I know I could discover the significance of this X-block, if only I had a little more time in the morning before school started.”</p>
+
+  </section>
+</article>
+
+
+  <footer>
+    <img id='footer-img' src='/images/muskeeto.svg'/>
+  </footer>
+
+  <script>
+    window.onload = main;
+
+    function main() {
+
+      var sidebarButton = document.getElementById('sidebar-button');
+      var sidebarMenu = document.getElementById('sidebar-menu');
+      sidebarButton.addEventListener('click', function() {
+        collapseMenu(sidebarMenu);
+      });
+
+    }
+
+    function collapseMenu(element) {
+      var index = element.className.indexOf('collapsed ');
+      // console.log(index);
+      if (index != -1) {
+          element.className = element.className.replace('collapsed ', '');
+      }
+      else {
+        element.className += 'collapsed ';
+      }
+    }
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-72234453-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>
