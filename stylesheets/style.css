@@ -76,7 +76,7 @@ footer {
 
 .sidebar-menu-item {
   display: block;
-  padding: 1.4em 0; }
+  padding: 1.2em 0; }
 
 #sidebar-menu {
   padding-left: 3.2em;
@@ -140,3 +140,6 @@ article {
     max-width: 38em; }
   article img {
     width: 100%; }
+
+h1 {
+  font-family: "Archivo Narrow"; }

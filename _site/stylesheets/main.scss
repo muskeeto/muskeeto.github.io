@@ -107,7 +107,8 @@ footer {
   // padding: 3.2em;
   display: block;
   // text-align: right;
-  padding: 1.4em 0;
+  // padding: 1.4em 0;
+  padding: 1.2em 0;
 }
 
 #sidebar-menu {
@@ -193,4 +194,8 @@ article { // pretty terrible...
     width: 100%;
   }
 
+}
+
+h1 {
+  font-family: $headline-font;
 }
