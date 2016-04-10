@@ -9,6 +9,9 @@ image: /images/2016/03/2016-03-01-physics-grading-system.jpg
 ![Physics grade formula.](/images/2016/03/2016-03-01-physics-grading-system.jpg)
 *Physics grade formula.*
 
+*Editor's note: This article will be back soon!*
+
+<!--
 **LEXINGTON** - In attempt to dodge the possibility of looking like a total tryhard or an getting the ever so dreadful "A", 12th-grade students at Lexington High School told Muskeeto reporters on Thursday that they were thankful for the implementation of the AP physics 1 grading system. “I was worried that the Bunker Hill community college would reject me if my grades got any higher”, stated Jofundus Quantifundomos Sr. Jr., who previously had a 4.1 GPA. “Balance is an important element of life: one boob is an A cup so the other is a D. And using that methodology we can extrapolate a similar balance: A in Kinematics? Complement that with a nice D in Forces.
 
 More importantly, AP Physics 1 is teaching young students important skills. “I can now calculate the distance and time it takes for me to fall, after I jump off a bridge.” stated stated one particularly enthusiastic, anonymous student.
@@ -23,4 +26,4 @@ Furthermore, the class is intended to be an LHS replication of the famous Darwin
 
 “Additionally, I have now fully memorized my student ID, the eight crucial digits to my graduation and have grown increasingly blind due to hot pink equations sheet. “At least now I can’t see the BG on the lab she’ll pass back tomorrow. If I don’t see the grade, it doesn’t exist, right?’ Nishcoosina Wanterfoot wrote in her will before she died in an elevator problem in packet 3.
 
-The ever so elusive B- can only be achieved with getting an NI on any of the 10 categories or “threads.” Even if you have “mastered” every other thread, the forgiving system will reward you with an overall grade of an NI. However the NI grade is used only in very rare instances for the recognition of truly exceptional achievement. We pray for those that take the next test. May the force be with you.
+The ever so elusive B- can only be achieved with getting an NI on any of the 10 categories or “threads.” Even if you have “mastered” every other thread, the forgiving system will reward you with an overall grade of an NI. However the NI grade is used only in very rare instances for the recognition of truly exceptional achievement. We pray for those that take the next test. May the force be with you. -->

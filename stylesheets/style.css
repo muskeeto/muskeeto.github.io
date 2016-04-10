@@ -131,8 +131,9 @@ article {
       padding-bottom: 0.4em;
       border-bottom: 0.07em solid #666; }
   article p {
-    line-height: 1.5em;
-    margin-bottom: 1.6em; }
+    line-height: 1.4em;
+    margin-bottom: 1.6em;
+    overflow: auto; }
     article p a {
       text-decoration: underline; }
   article section {
@@ -140,6 +141,11 @@ article {
     max-width: 38em; }
   article img {
     width: 100%; }
+  article .left-image-block {
+    float: left;
+    width: 50%;
+    padding-right: 1em;
+    margin-bottom: 1.6em; }
 
 h1 {
   font-family: "Archivo Narrow"; }

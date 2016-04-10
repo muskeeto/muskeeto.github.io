@@ -177,8 +177,9 @@ article { // pretty terrible...
   }
 
   p {
-    line-height: 1.5em;
+    line-height: 1.4em;
     margin-bottom: 1.6em;
+    overflow: auto;
     a { // yuck!
       text-decoration: underline;
     }
@@ -192,6 +193,13 @@ article { // pretty terrible...
 
   img {
     width: 100%;
+  }
+
+  .left-image-block {
+    float: left;
+    width: 50%;
+    padding-right: 1em;
+    margin-bottom: 1.6em;
   }
 
 }
