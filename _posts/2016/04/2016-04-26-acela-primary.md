@@ -10,10 +10,10 @@ image: /images/2016/04/2016-04-26-acela-primary.jpg
 *Students rally together in support of Sanders.*
 
 **LEXINGTON** – The polls closed at 8:00 PM Eastern time on Tuesday night, right as Lexington
-high students were finishing their last supper before the Armageddon. Students were reportedly
+high students were finishing their last suppers before the Armageddon. Students were reportedly
 horrified at seeing Trump and Clinton again in the lead, but not as surprised as they had been at the beginning of the primaries. Junior Carly Teller attests:
 
-“On Super Tuesday, we still had hope. We took the loss as a sign to keep pushing, to keep
+>“On Super Tuesday, we still had hope. We took the loss as a sign to keep pushing, to keep
 protesting. But in the last two months, we’ve matured. The disillusionment was painful at first,
 but we made it through. We rejected the signs telling us that reform was around the corner. We
 realized that no matter how hard we wished it to be true, Bernie Sanders was, and is, simply not
@@ -29,6 +29,7 @@ station. The sweet sounds of revolution emanated from vehicles nestled in illega
 throughout the town. The ringleader of the operation was indecipherable from the garbled
 recording, but their message rang loud and clear: this was the last straw. The time is now.
 
-At press time, three more seniors had been disqualified from the Assassins, but didn’t seem to
-mind: bigger dreams lay on the horizon. As a light breeze graced Lincoln Field, a soft murmur
-was heard: “we have to uproot the system and start anew.” Godspeed, comrades.
+At press time, three more seniors had been disqualified from Assassins, but didn’t seem to
+mind: bigger dreams lay on the horizon. As a light breeze graced the counter at Rancatore's, whisking a stray tasting spoon to the floor, a soft murmur was heard: “We have to uproot the system and start anew.”
+
+*Godspeed, comrades.*
