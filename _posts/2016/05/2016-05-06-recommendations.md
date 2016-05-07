@@ -3,7 +3,7 @@ layout: article
 title: 'How To: Ask For a College Recommendation'
 authors: [Anderson Cooper]
 tags: [College, School]
-image: /images/2016/04/2016-05-06-recommendations.jpg
+image: /images/2016/05/2016-05-06-recommendations.jpg
 ---
 
 1. Wait until the last possible moment to ask because teachers work best under pressure. Ask no sooner than December 27th to ensure they spend their last moments of Christmas Break writing this letter for you.
@@ -16,3 +16,6 @@ Ask a teacher who has a trustworthy-sounding name, like Dr. Goldstein or Feldber
 1. While you’re waiting for the teacher to finish your recommendation, send them hourly encouragement texts so they don’t forget that whether or not you are admitted to college entirely rides upon their one letter of recommendation.
 1. Practice that teacher’s personal signature so that when you can open the sealed envelope to read the recommendation, you can close, re-seal, and sign the envelope again without arousing suspicion.
 1. Take a Teacher Certification Test and write your own recommendation.
+
+![Wouldn't you write her a recommendation too?](/images/2016/05/2016-05-06-recommendations.jpg)
+*Wouldn't you write her a recommendation too?*
