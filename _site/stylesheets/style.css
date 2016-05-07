@@ -1,6 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Archivo+Narrow:700);
 @import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,700);
 @import url(https://brick.a.ssl.fastly.net/Libre+Caslon+Display:400);
+ol li {
+  padding-bottom: 1em; }
+
 body {
   font-family: "Crimson Text";
   padding-bottom: 3em; }
