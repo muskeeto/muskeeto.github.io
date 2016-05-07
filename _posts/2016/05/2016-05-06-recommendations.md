@@ -7,7 +7,7 @@ image: /images/2016/05/2016-05-06-recommendations.jpg
 ---
 
 1. Wait until the last possible moment to ask because teachers work best under pressure. Ask no sooner than December 27th to ensure they spend their last moments of Christmas Break writing this letter for you.
-Ask a teacher who has a trustworthy-sounding name, like Dr. Goldstein or Feldberg-Cohen. Doctors always write more trustworthy and legitimate letters of recommendation.
+1. Ask a teacher who has a trustworthy-sounding name, like Dr. Goldstein or Feldberg-Cohen. Doctors always write more trustworthy and legitimate letters of recommendation.
 1. Make sure you ask a male teacher as women can’t be trusted.
 1. Ask someone who doesn’t know you very well -- the shorter they’ve known you, the less they can say about your poor work ethic and regular tardiness to class.
 1. If you can, ask a close family member for a recommendation.
