@@ -134,11 +134,13 @@ article {
       padding-bottom: 0.4em;
       border-bottom: 0.07em solid #666; }
   article p {
-    line-height: 1.4em;
+    line-height: 1.6em;
     margin-bottom: 1.6em;
     overflow: auto; }
     article p a {
       text-decoration: underline; }
+  article strong {
+    line-height: 1em; }
   article section {
     margin: 0 auto;
     max-width: 38em; }
@@ -149,6 +151,13 @@ article {
     width: 50%;
     padding-right: 1em;
     margin-bottom: 1.6em; }
+  article .small-image {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    text-align: center; }
+  article .centered-image-caption {
+    text-align: center; }
 
 h1 {
   font-family: "Archivo Narrow"; }

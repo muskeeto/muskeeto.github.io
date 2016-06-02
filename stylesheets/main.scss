@@ -183,12 +183,16 @@ article { // pretty terrible...
   }
 
   p {
-    line-height: 1.4em;
+    line-height: 1.6em;
     margin-bottom: 1.6em;
     overflow: auto;
     a { // yuck!
       text-decoration: underline;
     }
+  }
+
+  strong {
+    line-height: 1em;
   }
 
   section {
@@ -206,6 +210,17 @@ article { // pretty terrible...
     width: 50%;
     padding-right: 1em;
     margin-bottom: 1.6em;
+  }
+
+  .small-image {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .centered-image-caption {
+    text-align: center;
   }
 
 }

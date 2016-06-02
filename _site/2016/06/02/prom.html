@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>the Muskeeto: News should suck.</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+  <link rel='stylesheet' type='text/css' href='/stylesheets/style.css'/>
+  <script src='https://use.edgefonts.net/courier-prime.js'></script>
+  <link rel='icon' type='image/png' sizes='32x32' href='/favicon-32x32.png'>
+  <link rel='icon' type='image/png' sizes='96x96' href='/favicon-96x96.png'>
+  <link rel='icon' type='image/png' sizes='16x16' href='/favicon-16x16.png'>
+</head>
+<body>
+
+  <div class='logo'>
+    <div class='title'><a class='link' href='/'>the Muskeeto</a></div>
+    <div class='tagline'><em>News should suck.</em> | est. 2015</div>
+  </div>
+
+  <div id='sidebar'>
+    <div id='sidebar-button'><img src='/images/menu.svg' id='sidebar-button-icon'/> Sections</div>
+    <nav id='sidebar-menu' class='sidebar-menu-default collapsed '>
+      <a class='link sidebar-menu-item' href='/'>Home</a>
+      <a class='link sidebar-menu-item' href='/local'>Local</a>
+      <a class='link sidebar-menu-item' href='/demon'>Politics</a>
+      <a class='link sidebar-menu-item' href='/videos'>Videos</a>
+      <a class='link sidebar-menu-item' href='/random'>Random</a>
+      <a class='link sidebar-menu-item' href='/submissions'>Submit</a>
+      <a class='link sidebar-menu-item' href='/2016/01/01/about'>About</a>
+    </nav>
+  </div>
+
+  <article>
+  <header>
+  <a href='#' class='tag' rel='tag'>College</a>
+  <h1 class='headline'> How to Win Prom</h1>
+  <div class='author'>By
+  
+
+  
+  Ed Gee
+
+  
+  </div>
+</header>
+
+  <section>
+    <div class="centered-image-caption">
+ <img class="small-image" src="/images/2016/06/2016-06-02-prom.jpg" />
+ <em>Don't let them win prom.</em>
+ </div>
+
+<p>So you’re going to senior prom, and you really want to be Prom King/Queen. But the competition seems pretty stiff this year; Dirk Darkwood already has a chiseled jaw that could only be described as ‘regal,’ and Clara Chipstick has been wearing a tiara to school for the past two weeks just to practice for what’s already sure to be her magical night! How do you wrench the presumptive royalty from their thrones? Thank goodness we’re here to help! Here’s a quick step-by-step list for making Thursday the night of your life ;)</p>
+
+<ol>
+  <li><strong>Buy the most expensive dress/tux you can find, and tell everyone.</strong> – Everyone loves it when you complain-brag about that hefty price tag your parents just covered. Isn’t it great to have so much money? Whoever has the fanciest wear obviously has the best wear, and that’s like 70% of what counts on Prom Night.</li>
+  <li><strong>Eat nothing. Ever.</strong> – We can talk all we want about how bad anorexia is for our health, but that’s not what’s important to us now, is it? What we need is to look the best we possibly can, and if that means fainting on the dance floor from hunger-driven fatigue, so be it! One day without food will definitely change how we look in our dress garb, and we’ll be able to craft that new image of ourselves as ‘super fit’ now that classes are over! Whoopee!</li>
+  <li><strong>Practice your dance moves.</strong> – Who doesn’t love a good dancer? Aside from being able to impress your date and your friends, you’ll get strangers cheering for you that you’ll never even see again! You may even score a better date to replace your current one, who was only a backup anyway. Winning prom is all about upward mobility.</li>
+  <li><strong>Go to four or five different pre-prom picture events to make sure everyone knows how popular you are.</strong> – Getting invited to a pre-prom is easy. Everyone has some friends. What’s truly a mark of pride is getting invited to seven different events. Look how cool you are now! Of course, you have to reject a few to show your selectivity. Arrive fashionably late to all of them to reaffirm your status as the haughtiest in attendance. What’s a better quality in a royal-to-be?</li>
+  <li><strong>‘Accidentally’ spill soda all over Clara’s prom dress.</strong> – She had it coming to her anyway.</li>
+  <li><strong>Realize we don’t have Prom King/Queen anymore.</strong> – Okay, so it turns out LHS doesn’t actually pick a couple and boost them to royalty status ever since the administration recognized the implicit reinforcement of the gender binary that accompanies these titles, but that doesn’t mean you can’t have a great time at Prom, right? Right?</li>
+  <li><strong>Listen to the lyrics, realize how engrained the patriarchy is in our society, and join feminism club.</strong> – Most people like dancing along to sick tunes and nasty beats, but they rarely take the time to listen to the lyrics. Now that you don’t have any homework left to do, you’ve got the opportunity to really listen closely and hear the misogynistic couplets in all their glory! How much progress our society has made!</li>
+  <li><strong>Go to an after party.</strong> – Your night won’t be complete without a little nighttime frolicking with your pals! Where will you go? What will you do? Who will you screw things up with forever? Remember, this is your last chance to burn your bridges, so light up!*</li>
+</ol>
+
+<p>*we do not endorse pyromancy of any kind. stay safe.</p>
+
+  </section>
+</article>
+
+
+  <footer>
+    <img id='footer-img' src='/images/muskeeto.svg'/>
+  </footer>
+
+  <script>
+    window.onload = main;
+
+    function main() {
+
+      var sidebarButton = document.getElementById('sidebar-button');
+      var sidebarMenu = document.getElementById('sidebar-menu');
+      sidebarButton.addEventListener('click', function() {
+        collapseMenu(sidebarMenu);
+      });
+
+    }
+
+    function collapseMenu(element) {
+      var index = element.className.indexOf('collapsed ');
+      // console.log(index);
+      if (index != -1) {
+          element.className = element.className.replace('collapsed ', '');
+      }
+      else {
+        element.className += 'collapsed ';
+      }
+    }
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-72234453-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>
