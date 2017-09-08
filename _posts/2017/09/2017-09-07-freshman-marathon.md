@@ -3,9 +3,9 @@ layout: article
 title: Freshman Accidentally Qualifies for Boston Marathon while Running to Class
 tags: [School, Sports, Freshmen, Marathon]
 authors: [Anderson Cooper, Poppin-Malli]
-image: /images/2016/01/2016-01-10-freshman-marathon.jpg
+image: /images/2017/09/2017-09-07-freshman-marathon.jpg
 ---
-![LHS freshmen tackle difficult discussions on race and privilege.](/images/2016/01/2016-01-10-freshman-marathon.jpg)
+![LHS freshmen tackle difficult discussions on race and privilege.](/images/2017/09/2017-09-07-freshman-marathon.jpg)
 *LHS freshmen tackle difficult discussions on race and privilege.*
 
 **LEXINGTON** -- “I was just absolutely bewildered,” reports LHS Freshman Jeremy Loring. “I didn’t even know I was under surveillance.” At 11:43am on Tuesday, October 20th, Loring officially qualified for the Boston Marathon on LHS’ own 26.2 mile course that contours the California-style school. The course includes 16 laps around the Quad, a loop through the freshman portables and freshman wing, library, the ladder on the auditorium wall, commons one, and commons two, and both small hills leading from the drop-off circle to the Quad. Loring’s guidance counselor reportedly signed him up for the race after observing his sub-4 minute mile pace during passing time in the early weeks of first quarter.
