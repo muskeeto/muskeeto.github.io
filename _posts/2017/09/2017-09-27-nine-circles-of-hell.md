@@ -5,7 +5,7 @@ tags: [School, Demons]
 authors: [Mitch McConnell]
 image: /images/2017/09/2017-09-27-hell.jpg
 ---
-![Unmarked White Van Offers Kids Free Candy.](/images/2017/09/2017-09-22-candy-van.jpg)
+![Dante's Inferno.](/images/2017/09/2017-09-27-hell.jpg)
 
 *Lexington High School Quad* –- A harrowing scene unfolded in the quad early Tuesday morning as freshman James Hunt unwittingly paraded through the senior corner on his way to english. Unfortunately for James, two demons disguised as lacrosse brothers were waiting for him as he made the mistake that cost him his morning.
 
