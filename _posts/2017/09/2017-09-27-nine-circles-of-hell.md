@@ -1,9 +1,9 @@
 ---
 layout: article
-title: Unmarked White Van Handing Out Most Candy at Activities Fair
+title: Freshman Accidently Walks Through Senior Corner, Gets Sent Through Dante's Nine Circles of Hell
 tags: [School, Demons]
 authors: [Mitch McConnell]
-image: /images/2017/09/9 circles of hell.jpg
+image: /images/2017/09/2017-09-27-hell.jpg
 ---
 ![Unmarked White Van Offers Kids Free Candy.](/images/2017/09/2017-09-22-candy-van.jpg)
 
