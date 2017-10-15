@@ -3,7 +3,7 @@ layout: article
 title: The Righteous Struggle – Student Fights For Beliefs, Homework-Free Year
 tags: [School, Houseplants, Religion]
 authors: [The Desert Fox]
-image: /images/2017/10/2017-10-15-houseplant-for-a-walk.jpg
+image: /images/2017/10/2017-10-15-houseplants-for-a-walk.jpg
 ---
 ![Krinklbacker inspects the homework he must compelete on Diwali.](/images/2017/10/2017-10-15-tons-of-homework.jpg)
 
