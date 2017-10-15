@@ -3,7 +3,7 @@ layout: article
 title: Freshman Accidently Walks Through Senior Corner, Gets Sent Through Dante's Nine Circles of Hell
 tags: [School, Demons]
 authors: [Mitchell Musso]
-image: /images/2017/09/2017-19-27-hell.jpg
+image: /images/2017/09/2017-09-27-hell.jpg
 ---
 ![The Senior Corner](/images/2017/09/2017-09-27-hell.jpg)
 
