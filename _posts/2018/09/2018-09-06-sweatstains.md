@@ -1,11 +1,11 @@
 ---
 layout: article
-title: Shocking Fall From Grace: Teacher Has Sweatstains Too
+title: Shocking Fall From Grace&#58; Teacher Has Sweatstains Too
 tags: [School, Exposé, Classical]
 authors: [ Muskeeto Editorial Board and Doof Warrior ]
-image: /images/2018/09/2018-09-06-sweatstains.jpeg
+image: /images/2018/09/2018-09-06-sweatstains.jpg
 ---
-![ *Democracy dies in darkness...* ](/images/2018/09/2018-09-06-sweatstains.jpeg)
+![ *Democracy dies in darkness...* ](/images/2018/09/2018-09-06-sweatstains.jpg)
 *Democracy dies in darkness*
 
 *Second floor, Science Building* -- As the details slowly emerge and higher powers continue to level a brutal assault of heat upon the town, one thing is clear: No one is safe. 
