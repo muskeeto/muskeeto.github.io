@@ -3,9 +3,9 @@ layout: article
 title: Frait Express Wages War on Awkward Silence in Commons 1
 tags: [School, Local, Classical]
 authors: [ Samuel J. Tilden ]
-image: /images/2018/10/2018-10-17-frait.jpg
+image: /images/2018-10-17-frait.jpg
 ---
-![ *This image is from "Tarrytown High School". Make of it what you will* ](/images/2018/10/2018-10-17-frait.jpg)
+![ *This image is from "Tarrytown High School". Make of it what you will* ](/images/2018-10-17-frait.jpg)
 
 
 *Lexington, MA* -- Goodbye breakfast burritos, hello innovation: Early Monday Morning, students of Burlington High School arrived to find their beloved and storied Frait Express gone, replaced by a grimy old “grab n’ go”. Little did they know, their counterparts at Lexington High School were just as perplexed, finding themselves on the other end of the Devil’s Bargain. This gentrification has split the student body along mostly partisan lines. Major demographics have come out in support of extra real estate for artisanal water, while others have pined for the simplistic days of cold mozzarella sticks. Yet, all can agree that this hulking monstrosity of a structure has changed what it means to be almost-friends-but-not-quite-but-I-know-him-from-gym-but-he’s-kinda-weird with someone.
