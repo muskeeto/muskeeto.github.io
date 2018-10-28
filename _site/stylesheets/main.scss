@@ -228,3 +228,19 @@ article { // pretty terrible...
 h1 {
   font-family: $headline-font;
 }
+
+.quoteImg{
+float: left;
+width:15%;
+height: 15%;
+}
+.quoteContent{
+width: 80%;
+float: right;
+}
+.quoteAttribute{
+font-family: "Archivo Narrow";
+width: 80%;
+float: right;
+}
+
