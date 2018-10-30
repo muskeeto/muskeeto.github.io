@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Muskeeto Reviews Movies&#58; *Mission Impossible&#58 Fallout*
+title: Muskeeto Reviews Movies&#58; Mission Impossible *Fallout*
 tags: [Review, Tragedy]
 authors: [ Broger Bebert ]
 image: /images/2018/10/2018-10-29-mireview.jpg
