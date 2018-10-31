@@ -5,8 +5,8 @@ tags: [Review, Tragedy]
 authors: [ Broger Bebert ]
 image: /images/2018/10/2018-10-29-mireview.jpg
 ---
-![ *Me, your beloved critic, clinging desperately to the decimated remains of my relationship, which I put more time into than my entire high school courseload* ](/images/2018/10/2018-10-29-mireview.jpg)
-*Me, your beloved critic, clinging desperately to the decimated remains of my relationship, which I put more time into than my entire high school courseload*
+![ *Me, your beloved critic, clinging desperately to the decimated remains of my relationship, which I put more time into than I did my entire high school courseload* ](/images/2018/10/2018-10-29-mireview.jpg)
+*Me, your beloved critic, clinging desperately to the decimated remains of my relationship, which I put more time into than I did my entire high school courseload*
 
 *Burlington AMC Cinema* -- Mission Impossible: Fallout opens strong, right out of the gate hitting you with the excitement and twists that have become hallmarks of the franchise. However, the film really started feeling flat right about the time I spied my girl with some guy two rows ahead of me. 
 
