@@ -5,7 +5,7 @@ tags: [Local, Controversial]
 authors: [ Mark Swineman ]
 image: /images/2019/09/2019-09-22-Urinal.jpg
 ---
-![ *Urinals that bear a slight resemblance to those in the boys locker room* ](/images/2018/10/2018-10-31-Frank.jpg)
+![ *Urinals that bear a slight resemblance to those in the boys locker room* ](/images/2019/09/2019-09-22-Urinals.jpg)
 *Urinals that bear a slight resemblance to those in the boys locker room*
 
 *Lexington High School* -- As faculty meandered through the entrances to Lexington High School on a brisk Monday morning, a new and unwelcome sound greeted them, resonating through the halls. The origin of these rumblings could be found deep in the heart of the main building: the boys locker room. For what was starting was the beginning of an ongoing movement, one already being compared to some of the greatest revolutions in LHS history.
